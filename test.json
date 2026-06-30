@@ -1,0 +1,259 @@
+{
+  "items": [
+    {
+      "id": "be9cb083653ab3b6e5b82faf13a94217",
+      "uri": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset/be9cb083653ab3b6e5b82faf13a94217#Dataset-di-prova-completo",
+      "published_at": "2025-01-24T11:50:46+01:00",
+      "modified_at": "2026-03-19T18:09:42+01:00",
+      "is_public": true,
+      "title": "Dataset di prova completo",
+      "abstract": "Prova per capire la visualizzazione dei campi ",
+      "description": "<p>Descrizione delle caratteristiche principali del dataset. Utilizzare una forma \"asciutta\". Evitare un linguaggio troppo burocratico e ricco di riferimenti normativi. E' utile inserire indicazioni sulla struttura dei dati che compongono il dataset, descrivendo per esempio le variabili registrate nel file dati. E' anche utile inserire eventuali informazioni su come è stato costruito il dataset o su aspetti di particolare valore di quei dati.</p>",
+      "description_od": "Queste informazioni non vengono riportate sul catalogo degli open data. Inserire altre descrizioni utili per la comunicazione sul portale istituzionale, come delle indicazioni su come usare i filtri nella tabella, o altre informazioni di contesto e non direttamente necessarie per il riuso dei dati.",
+      "identifier": "p_TN:0000000087",
+      "conforms_to": ["SKOS"],
+      "language": ["Italiano"],
+      "version_info": "versione del dataset",
+      "issued": "2025-01-24",
+      "accrualperiodicity": ["Irregolare"],
+      "start_date": "2025-05-30",
+      "end_date": "2025-06-07",
+      "publisher": [
+        {
+          "id": "structureP330",
+          "uri": "https://raw.githubusercontent.com/claudioballardini01/json/refs/heads/main/pat_publisher.java",
+          "priority": 1
+        }
+      ],
+      "rights_holder": "Provincia autonoma di Trento",
+      "creator": [
+        {
+          "id": "structureP330",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/strutture-organizzative/structureP330#Umst-digitalizzazione-e-reti",
+          "priority": 1
+        }
+      ],
+      "has_spatial_coverage": "Provincia autonoma di Trento",
+      "contact_point": [
+        {
+          "id": "contactpointP330",
+          "uri": "https://www.provincia.tn.it/api/openapi/media/classificazioni/punti-di-contatto/contactpointP330#Contatti-di-Umst-digitalizzazione-e-reti",
+          "priority": 1
+        }
+      ],
+      "topics": [
+        {
+          "id": "governo",
+          "uri": "https://www.provincia.tn.it/api/openapi/argomenti/governo#Pubblica-Amministrazione",
+          "priority": 1
+        },
+        {
+          "id": "6132f450fcb09b7c2453d519e9eb4ac1",
+          "uri": "https://www.provincia.tn.it/api/openapi/argomenti/6132f450fcb09b7c2453d519e9eb4ac1#Statistica-ufficiale",
+          "priority": 2
+        }
+      ],
+      "related_document": [
+        {
+          "id": "07725f29ce76dbe8e2a8dabb7c473595",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/documenti/07725f29ce76dbe8e2a8dabb7c473595#Documento-di-prova-minimo",
+          "priority": 1
+        },
+        {
+          "id": "pat_37296",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/documenti/pat_37296#Legge-provinciale-30-dicembre-2024-n.-13",
+          "priority": 2
+        }
+      ],
+      "keyword": [],
+      "related_dataset": [
+        {
+          "id": "8551e31242a99a589325b8e84eaf94b3",
+          "uri": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset/8551e31242a99a589325b8e84eaf94b3#Recupero-delle-eccedenze-alimentari-Mappatura-dei-Punti-di-distribuzione",
+          "priority": 1
+        }
+      ],
+      "transparency_section": ["Altri contenuti"],
+      "catalogo_od": true,
+      "show_fullwidth": true,
+      "csv_resource": {
+        "apiEnabled": false,
+        "extraUsers": null,
+        "itemName": "item",
+        "views": ["table"],
+        "fields": [
+          {
+            "identifier": "identificativo",
+            "label": "IDENTIFICATIVO",
+            "type": "string",
+            "required": "false",
+            "js_label": "IDENTIFICATIVO"
+          },
+          {
+            "identifier": "cognome",
+            "label": "COGNOME",
+            "type": "string",
+            "required": "false",
+            "js_label": "COGNOME"
+          },
+          {
+            "identifier": "nome",
+            "label": "NOME",
+            "type": "string",
+            "required": "false",
+            "js_label": "NOME"
+          },
+          {
+            "identifier": "luogo_di_nascita",
+            "label": "LUOGO DI NASCITA ",
+            "type": "string",
+            "required": "false",
+            "js_label": "LUOGO DI NASCITA "
+          },
+          {
+            "identifier": "provincia_di_nascita",
+            "label": "PROVINCIA DI NASCITA",
+            "type": "string",
+            "required": "false",
+            "js_label": "PROVINCIA DI NASCITA"
+          },
+          {
+            "identifier": "stato",
+            "label": "STATO",
+            "type": "string",
+            "required": "false",
+            "js_label": "STATO"
+          },
+          {
+            "identifier": "data_di_nascita",
+            "label": "DATA DI NASCITA ",
+            "type": "string",
+            "required": "false",
+            "js_label": "DATA DI NASCITA "
+          },
+          {
+            "identifier": "dug",
+            "label": "DUG",
+            "type": "string",
+            "required": "false",
+            "js_label": "DUG"
+          },
+          {
+            "identifier": "duf",
+            "label": "DUF",
+            "type": "string",
+            "required": "false",
+            "js_label": "DUF"
+          },
+          {
+            "identifier": "palazzo",
+            "label": "PALAZZO",
+            "type": "string",
+            "required": "false",
+            "js_label": "PALAZZO"
+          },
+          {
+            "identifier": "localita",
+            "label": "LOCALITA'",
+            "type": "string",
+            "required": "false",
+            "js_label": "LOCALITA'"
+          },
+          {
+            "identifier": "civico",
+            "label": "CIVICO",
+            "type": "string",
+            "required": "false",
+            "js_label": "CIVICO"
+          },
+          {
+            "identifier": "esponente",
+            "label": "ESPONENTE",
+            "type": "string",
+            "required": "false",
+            "js_label": "ESPONENTE"
+          },
+          {
+            "identifier": "indirizzo",
+            "label": "INDIRIZZO",
+            "type": "string",
+            "required": "false",
+            "js_label": "INDIRIZZO"
+          },
+          {
+            "identifier": "pippo",
+            "label": "pippo",
+            "type": "string",
+            "required": "false",
+            "js_label": "pippo"
+          },
+          {
+            "identifier": "pluto",
+            "label": "pluto",
+            "type": "string",
+            "required": "false",
+            "js_label": "pluto"
+          },
+          {
+            "identifier": "paperino",
+            "label": "paperino",
+            "type": "string",
+            "required": "false",
+            "js_label": "paperino"
+          }
+        ],
+        "facetsSettings": [],
+        "isEnabledSearchInput": false,
+        "calendarSettings": [],
+        "tableSettings": {
+          "show_fields": [
+            "luogo_di_nascita",
+            "nome",
+            "palazzo",
+            "provincia_di_nascita",
+            "stato",
+            "paperino",
+            "pippo",
+            "pluto"
+          ]
+        },
+        "chartSettings": null,
+        "counterSettings": {
+          "count_field": "false",
+          "select_stat": "count"
+        },
+        "openingView": null
+      },
+      "download_file": [],
+      "download_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQnERv_KsaUnDtfApDOYoWK24-x9loOZ5WKRVvoZMKjCKSC9DlT1kKvNxL-fxvGGVSD7DtxNJpA5fUO/pub?output=csv|Elenco società - csv",
+      "format": ["TIF"],
+      "resources": [
+        {
+          "index": 0,
+          "title": "Elenco società - pdf",
+          "url_download": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQnERv_KsaUnDtfApDOYoWK24-x9loOZ5WKRVvoZMKjCKSC9DlT1kKvNxL-fxvGGVSD7DtxNJpA5fUO/pub?output=pdf",
+          "format": "TAR"
+        },
+        {
+          "index": 1,
+          "title": "Elenco società - ods",
+          "url_download": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQnERv_KsaUnDtfApDOYoWK24-x9loOZ5WKRVvoZMKjCKSC9DlT1kKvNxL-fxvGGVSD7DtxNJpA5fUO/pub?output=ods",
+          "format": "tiff"
+        }
+      ],
+      "license": ["Creative Commons Attribution 4.0 International (CC BY 4.0)"],
+      "temporal": [
+        {
+          "id": "f339d917537039723a6aa5c5601800f4",
+          "uri": "https://www.provincia.tn.it/api/openapi/media/classificazioni/estensioni-temporali-dei-dataset/f339d917537039723a6aa5c5601800f4#Orario-Dataset",
+          "priority": 1
+        }
+      ],
+      "resource_name": "TypedDataset"
+    }
+  ],
+  "self": "https://raw.githubusercontent.com/claudioballardini01/json/refs/heads/main/pat.json",
+  "prev": null,
+  "next": null,
+  "count": 1
+}
