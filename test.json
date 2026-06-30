@@ -225,7 +225,7 @@
         "openingView": null
       },
       "download_file": [],
-      "download_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQnERv_KsaUnDtfApDOYoWK24-x9loOZ5WKRVvoZMKjCKSC9DlT1kKvNxL-fxvGGVSD7DtxNJpA5fUO/pub?output=csv|Elenco società - csv",
+      "download_url": null,
       "format": ["TIF"],
       "resources": [
         {
