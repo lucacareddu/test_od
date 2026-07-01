@@ -47,14 +47,9 @@
           "id": "766fd8c1ac024d72975aeb95387605dc",
           "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/766fd8c1ac024d72975aeb95387605dc#Turismo-e-sport",
           "priority": 1
-        },
-        {
-          "id": "b0f9b73b5cc243420cc341705ad5e042",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/b0f9b73b5cc243420cc341705ad5e042#Organizzazione-turistica",
-          "priority": 2
         }
       ],
-      "theme": ["Istruzione, cultura e sport","2826 Vita Sociale -\u00a0 tempo libero"],
+      "theme": ["Istruzione, cultura e sport"],
       "related_document": [],
       "keyword": ["turismo"],
       "related_dataset": [],
@@ -95,95 +90,6 @@
       },
       "download_file": [],
       "download_url": "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vTCVRz8UuLfLwA8IzJo9cD_WzVziO_uV-tgG77qYZlSZcWEM8D2-R6nEQ1GakYnqU81zXM1fwz-6bWQ\/pub?output=csv|Elenco pro loco",
-      "format": ["CSV"],
-      "resources": [],
-      "license": ["Creative Commons Attribution 4.0 International (CC BY 4.0)"],
-      "temporal": [],
-      "resource_name": "TypedDataset"
-    },
-    {
-      "id": "743bc9823a1c124fbed484bf178e05e2",
-      "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/dati-e-statistiche\/dataset\/743bc9823a1c124fbed484bf178e05e2#Archivio-dichiarazioni-di-incompatibilita-per-incarichi-pubblici-negli-altri-enti",
-      "published_at": "2026-03-26T13:00:41+01:00",
-      "modified_at": "2026-06-18T12:07:05+02:00",
-      "is_public": true,
-      "title": "Archivio dichiarazioni di incompatibilit\u00e0 per incarichi pubblici negli altri enti",
-      "abstract": "Archivio delle dichiarazioni di incompatibilit\u00e0 fornite dai soggetti ai quali \u00e8 stato conferito dalla Provincia un incarico presso altri enti, ai sensi del decreto legislativo n.39 del 2013",
-      "description": "<p>L'archivio \u00e8 consultabile filtrando le dichiarazioni per anno, organizzazione e cognome dell'interessato e fa riferimento alle dichiarazioni del periodo 1 gennaio 2021 - 28 febbraio 2026.<\/p><p>Dal\u00a0 01\/03\/2026 le dichiarazioni vengono pubblicate sul portale Amministrazione trasparente nella sezione <a href=\"https:\/\/trasparenza.provincia.tn.it\/index.php?id_sezione=717\" target=\"_blank\">Enti controllati <i class=\"fa fa-external-link\"><\/i> <\/a>.<\/p>",
-      "description_od": "",
-      "identifier": "p_TN:0000000210",
-      "conforms_to": [],
-      "language": ["Italiano"],
-      "version_info": "",
-      "issued": "2025-11-10",
-      "accrualperiodicity": ["Non viene aggiornato (mai)"],
-      "modified": "2026-03-26",
-      "start_date": "2025-01-01",
-      "end_date": "2026-02-28",
-      "publisher": [
-        {
-          "id": "structureU226",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/amministrazione\/strutture-organizzative\/structureU226#Ufficio-stampa",
-          "priority": 1
-        }
-      ],
-      "rights_holder": "Provincia autonoma di Trento",
-      "creator": [],
-      "has_spatial_coverage": "Provincia autonoma di Trento",
-      "contact_point": [
-        {
-          "id": "contactpointD339",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/media\/classificazioni\/punti-di-contatto\/contactpointD339#Contatti-di-Dipartimento-affari-istituzionali-anticorruzione-e-trasparenza",
-          "priority": 1
-        }
-      ],
-      "topics": [
-        {
-          "id": "governo",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/governo#Pubblica-Amministrazione",
-          "priority": 1
-        },
-        {
-          "id": "fb69024235f7382d500ac37841d5d00c",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/fb69024235f7382d500ac37841d5d00c#Trasparenza",
-          "priority": 2
-        }
-      ],
-      "theme": ["Governo e settore pubblico","0436 Potere esecutivo e amministrazione pubblica"],
-      "related_document": [],
-      "keyword": ["trasparenza"],
-      "related_dataset": [],
-      "transparency_section": [],
-      "catalogo_od": true,
-      "show_fullwidth": true,
-      "csv_resource": {
-        "apiEnabled": false,
-        "extraUsers": null,
-        "itemName": "item",
-        "views": ["table"],
-        "fields": [
-          {"identifier": "anno", "label": "Anno", "type": "string", "required": "false", "js_label": "Anno"},
-          {"identifier": "organizzazione", "label": "Organizzazione", "type": "string", "required": "false", "js_label": "Organizzazione"},
-          {"identifier": "cognome", "label": "Cognome", "type": "string", "required": "false", "js_label": "Cognome"},
-          {"identifier": "nome", "label": "Nome", "type": "string", "required": "false", "js_label": "Nome"},
-          {"identifier": "persona", "label": "Persona", "type": "string", "required": "false", "js_label": "Persona"},
-          {"identifier": "url", "label": "Url", "type": "textarea", "required": "false", "js_label": "Url"},
-          {"identifier": "link", "label": "Link", "type": "a_href", "required": "false", "js_label": "Link"}
-        ],
-        "facetsSettings": ["anno","organizzazione","persona"],
-        "isEnabledSearchInput": false,
-        "calendarSettings": [],
-        "tableSettings": {
-          "show_fields": ["anno","link","organizzazione","persona"],
-          "view": "default",
-          "order": "desc"
-        },
-        "chartSettings": null,
-        "counterSettings": {"count_field": "false"},
-        "openingView": null
-      },
-      "download_file": [],
-      "download_url": "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vRE3PYTLDPNexqxrHJuYvE7AIKW0FIGat0WD1Ny1DfAOGeRLp6JFozpx75vO082oF5pjW-Pwis3amJ3\/pub?gid=1855169246&single=true&output=csv|Dichiarazioni di incompatibilit\u00e0 per incarichi pubblici",
       "format": ["CSV"],
       "resources": [],
       "license": ["Creative Commons Attribution 4.0 International (CC BY 4.0)"],
