@@ -1,4 +1,3 @@
-```json
 {
   "items": [
     {
@@ -197,5 +196,3 @@
   "next": "https:\/\/www.provincia.tn.it\/api\/openapi\/dati-e-statistiche\/dataset?offset=10&limit=10&sort=published&order=desc",
   "count": 79
 }
-
-```
