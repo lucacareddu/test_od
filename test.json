@@ -1,57 +1,51 @@
 {
   "items": [
     {
-      "id": "99999999999999999999999999999999",
-      "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/dati-e-statistiche\/dataset\/4ff4c08b68fc9a25717bc15bc6b323a9#Elenco-associazioni-pro-loco-TEST-UNIQUE",
-      "published_at": "2026-05-21T10:25:40+02:00",
-      "modified_at": "2026-05-21T12:08:57+02:00",
+      "id": "88888888888888888888888888888888",
+      "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/dati-e-statistiche\/dataset\/743bc9823a1c124fbed484bf178e05e2#Archivio-dichiarazioni-di-incompatibilita-TEST-UNIQUE",
+      "published_at": "2026-03-26T13:00:41+01:00",
+      "modified_at": "2026-06-18T12:07:05+02:00",
       "is_public": true,
-      "title": "Elenco associazioni pro loco - Test Unico",
-      "abstract": "Associazioni pro loco iscritte nell'elenco della Provincia Autonoma di Trento",
-      "description": "<p>L'elenco contiene i dati anagrafici delle associazioni pro loco riconosciute. L'aggiornamento \u00e8 a richiesta.<\/p>",
-      "description_od": "E' possibile filtrare per comune.",
-      "identifier": "p_TN:TEST_UNIQUE_IDENTIFIER_001",
-      "conforms_to": ["ANNCSU"],
+      "title": "Archivio dichiarazioni di incompatibilit\u00e0 - Test Unico",
+      "abstract": "Archivio delle dichiarazioni di incompatibilit\u00e0 fornite dai soggetti ai quali \u00e8 stato conferito dalla Provincia un incarico presso altri enti.",
+      "description": "<p>L'archivio \u00e8 consultabile filtrando le dichiarazioni per anno, organizzazione e cognome dell'interessato.<\/p>",
+      "description_od": "",
+      "identifier": "p_TN:TEST_UNIQUE_IDENTIFIER_002",
+      "conforms_to": [],
       "language": ["Italiano"],
       "version_info": "",
-      "issued": "2026-05-21",
-      "accrualperiodicity": ["Irregolare"],
-      "modified": "2026-05-21",
-      "start_date": null,
-      "end_date": null,
+      "issued": "2025-11-10",
+      "accrualperiodicity": ["Non viene aggiornato (mai)"],
+      "modified": "2026-03-26",
+      "start_date": "2025-01-01",
+      "end_date": "2026-02-28",
       "publisher": [
         {
-          "id": "structureU310",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/amministrazione\/strutture-organizzative\/structureU310#Ufficio-promozione-territoriale",
+          "id": "structureU226",
+          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/amministrazione\/strutture-organizzative\/structureU226#Ufficio-stampa",
           "priority": 1
         }
       ],
       "rights_holder": "Provincia autonoma di Trento",
-      "creator": [
-        {
-          "id": "structureU310",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/amministrazione\/strutture-organizzative\/structureU310#Ufficio-promozione-territoriale",
-          "priority": 1
-        }
-      ],
+      "creator": [],
       "has_spatial_coverage": "Provincia autonoma di Trento",
       "contact_point": [
         {
-          "id": "contactpointU310",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/media\/classificazioni\/punti-di-contatto\/contactpointU310#Contatti-di-Ufficio-promozione-territoriale",
+          "id": "contactpointD339",
+          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/media\/classificazioni\/punti-di-contatto\/contactpointD339#Contatti-di-Dipartimento-affari-istituzionali-anticorruzione-e-trasparenza",
           "priority": 1
         }
       ],
       "topics": [
         {
-          "id": "766fd8c1ac024d72975aeb95387605dc",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/766fd8c1ac024d72975aeb95387605dc#Turismo-e-sport",
+          "id": "governo",
+          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/governo#Pubblica-Amministrazione",
           "priority": 1
         }
       ],
-      "theme": ["Istruzione, cultura e sport"],
+      "theme": ["Governo e settore pubblico"],
       "related_document": [],
-      "keyword": ["turismo"],
+      "keyword": ["trasparenza"],
       "related_dataset": [],
       "transparency_section": [],
       "catalogo_od": true,
@@ -62,23 +56,23 @@
         "itemName": "item",
         "views": ["table"],
         "fields": [
-          {"identifier": "n", "label": "N.", "type": "identifier", "required": "false", "js_label": "N."},
-          {"identifier": "associazione_pro_loco", "label": "ASSOCIAZIONE PRO LOCO", "type": "string", "required": "false", "js_label": "ASSOCIAZIONE PRO LOCO"}
+          {"identifier": "anno", "label": "Anno", "type": "string", "required": "false", "js_label": "Anno"},
+          {"identifier": "organizzazione", "label": "Organizzazione", "type": "string", "required": "false", "js_label": "Organizzazione"}
         ],
-        "facetsSettings": ["comune"],
-        "isEnabledSearchInput": true,
+        "facetsSettings": ["anno","organizzazione"],
+        "isEnabledSearchInput": false,
         "calendarSettings": [],
         "tableSettings": {
-          "show_fields": ["associazione_pro_loco"],
+          "show_fields": ["anno","organizzazione"],
           "view": "default",
-          "order": "asc"
+          "order": "desc"
         },
         "chartSettings": null,
-        "counterSettings": {"count_field": "false","select_stat": "count"},
+        "counterSettings": {"count_field": "false"},
         "openingView": null
       },
       "download_file": [],
-      "download_url": "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vTCVRz8UuLfLwA8IzJo9cD_WzVziO_uV-tgG77qYZlSZcWEM8D2-R6nEQ1GakYnqU81zXM1fwz-6bWQ\/pub?output=csv",
+      "download_url": "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vRE3PYTLDPNexqxrHJuYvE7AIKW0FIGat0WD1Ny1DfAOGeRLp6JFozpx75vO082oF5pjW-Pwis3amJ3\/pub?gid=1855169246&single=true&output=csv",
       "format": ["CSV"],
       "resources": [],
       "license": ["Creative Commons Attribution 4.0 International (CC BY 4.0)"],
