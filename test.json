@@ -1,28 +1,28 @@
 {
   "items": [
     {
-      "id": "88888888888888888888888888888888",
-      "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/dati-e-statistiche\/dataset\/743bc9823a1c124fbed484bf178e05e2#Archivio-dichiarazioni-di-incompatibilita-TEST-UNIQUE",
-      "published_at": "2026-03-26T13:00:41+01:00",
-      "modified_at": "2026-06-18T12:07:05+02:00",
+      "id": "77777777777777777777777777777777",
+      "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/dati-e-statistiche\/dataset\/553c92833c40ab23ae833c8934adcaf8#Normativa-controllo-impianti-termici-TEST-UNIQUE",
+      "published_at": "2025-11-26T13:42:00+01:00",
+      "modified_at": "2026-03-30T18:07:50+02:00",
       "is_public": true,
-      "title": "Archivio dichiarazioni di incompatibilit\u00e0 - Test Unico",
-      "abstract": "Archivio delle dichiarazioni di incompatibilit\u00e0 fornite dai soggetti ai quali \u00e8 stato conferito dalla Provincia un incarico presso altri enti.",
-      "description": "<p>L'archivio \u00e8 consultabile filtrando le dichiarazioni per anno, organizzazione e cognome dell'interessato.<\/p>",
+      "title": "Normativa impianti termici - Test Unico",
+      "abstract": "Normativa nazionale, regionale e provinciale in materia di controllo degli impianti termici.",
+      "description": "<p>Normativa in materia di controllo impianti termici.<\/p>",
       "description_od": "",
-      "identifier": "p_TN:TEST_UNIQUE_IDENTIFIER_002",
+      "identifier": "p_TN:TEST_UNIQUE_IDENTIFIER_003",
       "conforms_to": [],
       "language": ["Italiano"],
       "version_info": "",
-      "issued": "2025-11-10",
-      "accrualperiodicity": ["Non viene aggiornato (mai)"],
-      "modified": "2026-03-26",
-      "start_date": "2025-01-01",
-      "end_date": "2026-02-28",
+      "issued": "2025-11-26",
+      "accrualperiodicity": ["Irregolare"],
+      "modified": "2025-11-26",
+      "start_date": null,
+      "end_date": null,
       "publisher": [
         {
-          "id": "structureU226",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/amministrazione\/strutture-organizzative\/structureU226#Ufficio-stampa",
+          "id": "structureS502",
+          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/amministrazione\/strutture-organizzative\/structureS502#Agenzia-provinciale-per-le-risorse-idriche-e-l-energia-aprie",
           "priority": 1
         }
       ],
@@ -31,21 +31,21 @@
       "has_spatial_coverage": "Provincia autonoma di Trento",
       "contact_point": [
         {
-          "id": "contactpointD339",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/media\/classificazioni\/punti-di-contatto\/contactpointD339#Contatti-di-Dipartimento-affari-istituzionali-anticorruzione-e-trasparenza",
+          "id": "contactpointS502",
+          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/media\/classificazioni\/punti-di-contatto\/contactpointS502#Contatti-di-Agenzia-provinciale-per-le-risorse-idriche-e-l-energia-aprie",
           "priority": 1
         }
       ],
       "topics": [
         {
-          "id": "governo",
-          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/governo#Pubblica-Amministrazione",
+          "id": "topic_13",
+          "uri": "https:\/\/www.provincia.tn.it\/api\/openapi\/argomenti\/topic_13#Energia",
           "priority": 1
         }
       ],
-      "theme": ["Governo e settore pubblico"],
+      "theme": ["Energia"],
       "related_document": [],
-      "keyword": ["trasparenza"],
+      "keyword": [],
       "related_dataset": [],
       "transparency_section": [],
       "catalogo_od": true,
@@ -56,23 +56,22 @@
         "itemName": "item",
         "views": ["table"],
         "fields": [
-          {"identifier": "anno", "label": "Anno", "type": "string", "required": "false", "js_label": "Anno"},
-          {"identifier": "organizzazione", "label": "Organizzazione", "type": "string", "required": "false", "js_label": "Organizzazione"}
+          {"identifier": "id", "label": "ID", "type": "string", "required": "false", "js_label": "ID"},
+          {"identifier": "normativa", "label": "Normativa", "type": "textarea", "required": "false", "js_label": "Normativa"}
         ],
-        "facetsSettings": ["anno","organizzazione"],
+        "facetsSettings": ["titolo"],
         "isEnabledSearchInput": false,
         "calendarSettings": [],
         "tableSettings": {
-          "show_fields": ["anno","organizzazione"],
-          "view": "default",
-          "order": "desc"
+          "show_fields": ["normativa"],
+          "view": "default"
         },
         "chartSettings": null,
-        "counterSettings": {"count_field": "false"},
+        "counterSettings": {"count_field": "false","select_stat": "count"},
         "openingView": null
       },
       "download_file": [],
-      "download_url": "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vRE3PYTLDPNexqxrHJuYvE7AIKW0FIGat0WD1Ny1DfAOGeRLp6JFozpx75vO082oF5pjW-Pwis3amJ3\/pub?gid=1855169246&single=true&output=csv",
+      "download_url": "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vRE3PYTLDPNexqxrHJuYvE7AIKW0FIGat0WD1Ny1DfAOGeRLp6JFozpx75vO082oF5pjW-Pwis3amJ3\/pub?output=csv",
       "format": ["CSV"],
       "resources": [],
       "license": ["Creative Commons Attribution 4.0 International (CC BY 4.0)"],
