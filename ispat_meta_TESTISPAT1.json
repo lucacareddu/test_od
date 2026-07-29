@@ -1,0 +1,23 @@
+{
+  "metadata": [
+    {
+      "id": "TESTISPAT1",
+      "URL": "https://lucacareddu.github.io/test_od/ispat_meta_TESTISPAT1.json",
+      "Descrizione": "Indicatore statistico di test ISPAT - migrazione 20 luglio 2026",
+      "Area": "Popolazione e societa",
+      "Settore": "popolazione",
+      "Algoritmo": "Rapporto percentuale di test tra popolazione residente e superficie",
+      "Fenomeno": "Popolazione residente",
+      "ConfrontiTerritoriali": "Provincia autonoma di Trento",
+      "AnnoInizio": "2000",
+      "AnnoFine": "2024",
+      "Note": "Dato sintetico di test per validare l'harvester StatWebPro dopo l'hardening",
+      "UltimoAggiornamento": "31/12/2024",
+      "FreqAggiornamento": "Annuale",
+      "UM": "Percentuale",
+      "Tema": "SOCI",
+      "Licenza": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "Indicatore": "https://lucacareddu.github.io/test_od/ispat_res_TESTISPAT1.json"
+    }
+  ]
+}
