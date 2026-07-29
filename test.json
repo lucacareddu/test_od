@@ -108,10 +108,222 @@
       ],
       "temporal": [],
       "resource_name": "TypedDataset"
+    },
+    {
+      "id": "55555555555555555555555555555555",
+      "uri": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset/4ff4c08b68fc9a25717bc15bc6b323a9#Elenco-associazioni-pro-loco",
+      "published_at": "2026-05-21T10:25:40+02:00",
+      "modified_at": "2026-05-21T12:08:57+02:00",
+      "is_public": false,
+      "title": "APPA no-filter test (catalogo_od e is_public false)",
+      "abstract": "Associazioni pro loco iscritte nell'elenco della Provincia Autonoma di Trento",
+      "description": "<p>L'elenco contiene i dati anagrafici delle associazioni pro loco riconosciute. L'aggiornamento è a richiesta.</p>",
+      "description_od": "E' possibile filtrare per comune.",
+      "identifier": "p_TN:APPA_NOFILTER_TEST",
+      "conforms_to": [
+        "ANNCSU"
+      ],
+      "language": [
+        "Italiano"
+      ],
+      "version_info": "",
+      "issued": "2026-05-21",
+      "accrualperiodicity": [
+        "Irregolare"
+      ],
+      "modified": "2026-05-21",
+      "start_date": null,
+      "end_date": null,
+      "publisher": [
+        {
+          "id": "structureU310",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/strutture-organizzative/structureU310#Ufficio-promozione-territoriale",
+          "priority": 1
+        }
+      ],
+      "rights_holder": "Provincia autonoma di Trento",
+      "creator": [
+        {
+          "id": "structureU310",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/strutture-organizzative/structureU310#Ufficio-promozione-territoriale",
+          "priority": 1
+        }
+      ],
+      "has_spatial_coverage": "Provincia autonoma di Trento",
+      "contact_point": [
+        {
+          "id": "contactpointU310",
+          "uri": "https://www.provincia.tn.it/api/openapi/media/classificazioni/punti-di-contatto/contactpointU310#Contatti-di-Ufficio-promozione-territoriale",
+          "priority": 1
+        }
+      ],
+      "topics": [
+        {
+          "id": "766fd8c1ac024d72975aeb95387605dc",
+          "uri": "https://www.provincia.tn.it/api/openapi/argomenti/766fd8c1ac024d72975aeb95387605dc#Turismo-e-sport",
+          "priority": 1
+        },
+        {
+          "id": "b0f9b73b5cc243420cc341705ad5e042",
+          "uri": "https://www.provincia.tn.it/api/openapi/argomenti/b0f9b73b5cc243420cc341705ad5e042#Organizzazione-turistica",
+          "priority": 2
+        }
+      ],
+      "theme": [
+        "Istruzione, cultura e sport",
+        "2826 Vita Sociale -  tempo libero"
+      ],
+      "related_document": [],
+      "keyword": [
+        "turismo"
+      ],
+      "related_dataset": [],
+      "transparency_section": [],
+      "catalogo_od": false,
+      "show_fullwidth": true,
+      "csv_resource": {
+        "apiEnabled": false,
+        "extraUsers": null,
+        "itemName": "item",
+        "views": [
+          "table"
+        ],
+        "fields": [
+          {
+            "identifier": "n",
+            "label": "N.",
+            "type": "identifier",
+            "required": "false",
+            "js_label": "N."
+          },
+          {
+            "identifier": "associazione_pro_loco",
+            "label": "ASSOCIAZIONE PRO LOCO",
+            "type": "string",
+            "required": "false",
+            "js_label": "ASSOCIAZIONE PRO LOCO"
+          },
+          {
+            "identifier": "codice_fiscale",
+            "label": "CODICE FISCALE",
+            "type": "string",
+            "required": "false",
+            "js_label": "CODICE FISCALE"
+          },
+          {
+            "identifier": "via",
+            "label": "VIA",
+            "type": "string",
+            "required": "false",
+            "js_label": "VIA"
+          },
+          {
+            "identifier": "indirizzo",
+            "label": "INDIRIZZO",
+            "type": "string",
+            "required": "false",
+            "js_label": "INDIRIZZO"
+          },
+          {
+            "identifier": "civico",
+            "label": "CIVICO",
+            "type": "string",
+            "required": "false",
+            "js_label": "CIVICO"
+          },
+          {
+            "identifier": "indirizzo_completo",
+            "label": "INDIRIZZO COMPLETO",
+            "type": "string",
+            "required": "false",
+            "js_label": "INDIRIZZO COMPLETO"
+          },
+          {
+            "identifier": "localita",
+            "label": "LOCALITA'",
+            "type": "string",
+            "required": "false",
+            "js_label": "LOCALITA&apos;"
+          },
+          {
+            "identifier": "cap",
+            "label": "CAP",
+            "type": "string",
+            "required": "false",
+            "js_label": "CAP"
+          },
+          {
+            "identifier": "comune",
+            "label": "COMUNE ",
+            "type": "string",
+            "required": "false",
+            "js_label": "COMUNE "
+          },
+          {
+            "identifier": "data_iscrizione_elenco_delle_associazioni_pro_loco",
+            "label": "DATA ISCRIZIONE ELENCO DELLE ASSOCIAZIONI PRO LOCO",
+            "type": "date",
+            "required": "false",
+            "date_format": "DD/MM/YYYY",
+            "js_label": "DATA ISCRIZIONE ELENCO DELLE ASSOCIAZIONI PRO LOCO"
+          },
+          {
+            "identifier": "indirizzo_pec",
+            "label": "INDIRIZZO PEC ",
+            "type": "email",
+            "required": "false",
+            "js_label": "INDIRIZZO PEC "
+          },
+          {
+            "identifier": "indirizzo_mail",
+            "label": "INDIRIZZO MAIL",
+            "type": "email",
+            "required": "false",
+            "js_label": "INDIRIZZO MAIL"
+          }
+        ],
+        "facetsSettings": [
+          "comune"
+        ],
+        "isEnabledSearchInput": true,
+        "calendarSettings": [],
+        "tableSettings": {
+          "show_fields": [
+            "associazione_pro_loco",
+            "cap",
+            "codice_fiscale",
+            "comune",
+            "data_iscrizione_elenco_delle_associazioni_pro_loco",
+            "indirizzo_completo",
+            "indirizzo_mail",
+            "indirizzo_pec",
+            "localita"
+          ],
+          "view": "default",
+          "order": "asc"
+        },
+        "chartSettings": null,
+        "counterSettings": {
+          "count_field": "false",
+          "select_stat": "count"
+        },
+        "openingView": null
+      },
+      "download_file": [],
+      "download_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCVRz8UuLfLwA8IzJo9cD_WzVziO_uV-tgG77qYZlSZcWEM8D2-R6nEQ1GakYnqU81zXM1fwz-6bWQ/pub?output=csv|Elenco pro loco",
+      "format": [
+        "CSV"
+      ],
+      "resources": [],
+      "license": [
+        "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+      ],
+      "temporal": [],
+      "resource_name": "TypedDataset"
     }
   ],
   "self": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset?offset=0&limit=10",
   "prev": null,
   "next": null,
-  "count": 1
+  "count": 2
 }
