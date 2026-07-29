@@ -1,8 +1,0 @@
-{
-  "access_url": "https://lucacareddu.github.io/test_od/ispat_res_TESTISPAT1.json",
-  "title": "Risorsa APPA di test",
-  "description": "Risorsa JSON di test per harvester APPA",
-  "format": ["JSON"],
-  "modified": "2026-01-01",
-  "license": ["Creative Commons Attribution 4.0 International (CC BY 4.0)"]
-}
