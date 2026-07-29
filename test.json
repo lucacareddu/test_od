@@ -115,8 +115,8 @@
       "published_at": "2026-05-21T10:25:40+02:00",
       "modified_at": "2026-05-21T12:08:57+02:00",
       "is_public": true,
-      "title": "Elenco associazioni pro loco",
-      "abstract": "Associazioni pro loco iscritte nell'elenco della Provincia Autonoma di Trento",
+      "title": "Elenco associazioni pro loco - MODIFICATO TEST",
+      "abstract": "Associazioni pro loco iscritte nell'elenco della Provincia Autonoma di Trento [modifica di test]",
       "description": "<p>L'elenco contiene i dati anagrafici delle associazioni pro loco riconosciute. L'aggiornamento è a richiesta.</p>",
       "description_od": "E' possibile filtrare per comune.",
       "identifier": "p_TN:0000000221",
@@ -320,10 +320,228 @@
       ],
       "temporal": [],
       "resource_name": "TypedDataset"
+    },
+    {
+      "id": "33333333333333333333333333333333",
+      "uri": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset/553c92833c40ab23ae833c8934adcaf8#Normativa-controllo-impianti-termici-TEST-UNIQUE",
+      "published_at": "2025-11-26T13:42:00+01:00",
+      "modified_at": "2026-03-30T18:07:50+02:00",
+      "is_public": true,
+      "title": "Filtrato catalogo_od false",
+      "abstract": "Normtermici.",
+      "description": "<p>Normativa in materia di controllo impianti termici.</p>",
+      "description_od": "",
+      "identifier": "p_TN:FILTER_CATOD_FALSE",
+      "conforms_to": [],
+      "language": [
+        "Italiano"
+      ],
+      "version_info": "",
+      "issued": "2025-11-26",
+      "accrualperiodicity": [
+        "Irregolare"
+      ],
+      "modified": "2025-11-26",
+      "start_date": null,
+      "end_date": null,
+      "publisher": [
+        {
+          "id": "structureS502",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/strutture-organizzative/structureS502#Agenzia-provinciale-per-le-risorse-idriche-e-l-energia-aprie",
+          "priority": 1
+        }
+      ],
+      "rights_holder": "Provincia autonoma di Trento",
+      "creator": [],
+      "has_spatial_coverage": "Provincia autonoma di Trento",
+      "contact_point": [
+        {
+          "id": "contactpointS502",
+          "uri": "https://www.provincia.tn.it/api/openapi/media/classificazioni/punti-di-contatto/contactpointS502#Contatti-di-Agenzia-provinciale-per-le-risorse-idriche-e-l-energia-aprie",
+          "priority": 1
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic_13",
+          "uri": "https://www.provincia.tn.it/api/openapi/argomenti/topic_13#Energia",
+          "priority": 1
+        }
+      ],
+      "theme": [
+        "Energia"
+      ],
+      "related_document": [],
+      "keyword": [],
+      "related_dataset": [],
+      "transparency_section": [],
+      "catalogo_od": false,
+      "show_fullwidth": true,
+      "csv_resource": {
+        "apiEnabled": false,
+        "extraUsers": null,
+        "itemName": "item",
+        "views": [
+          "table"
+        ],
+        "fields": [
+          {
+            "identifier": "id",
+            "label": "ID",
+            "type": "string",
+            "required": "false",
+            "js_label": "ID"
+          },
+          {
+            "identifier": "normativa",
+            "label": "Normativa",
+            "type": "textarea",
+            "required": "false",
+            "js_label": "Normativa"
+          }
+        ],
+        "facetsSettings": [
+          "titolo"
+        ],
+        "isEnabledSearchInput": false,
+        "calendarSettings": [],
+        "tableSettings": {
+          "show_fields": [
+            "normativa"
+          ],
+          "view": "default"
+        },
+        "chartSettings": null,
+        "counterSettings": {
+          "count_field": "false",
+          "select_stat": "count"
+        },
+        "openingView": null
+      },
+      "download_file": [],
+      "download_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE3PYTLDPNexqxrHJuYvE7AIKW0FIGat0WD1Ny1DfAOGeRLp6JFozpx75vO082oF5pjW-Pwis3amJ3/pub?output=csv",
+      "format": [
+        "CSV"
+      ],
+      "resources": [],
+      "license": [
+        "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+      ],
+      "temporal": [],
+      "resource_name": "TypedDataset"
+    },
+    {
+      "id": "44444444444444444444444444444444",
+      "uri": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset/553c92833c40ab23ae833c8934adcaf8#Normativa-controllo-impianti-termici-TEST-UNIQUE",
+      "published_at": "2025-11-26T13:42:00+01:00",
+      "modified_at": "2026-03-30T18:07:50+02:00",
+      "is_public": false,
+      "title": "Filtrato is_public false",
+      "abstract": "Normtermici.",
+      "description": "<p>Normativa in materia di controllo impianti termici.</p>",
+      "description_od": "",
+      "identifier": "p_TN:FILTER_PUBLIC_FALSE",
+      "conforms_to": [],
+      "language": [
+        "Italiano"
+      ],
+      "version_info": "",
+      "issued": "2025-11-26",
+      "accrualperiodicity": [
+        "Irregolare"
+      ],
+      "modified": "2025-11-26",
+      "start_date": null,
+      "end_date": null,
+      "publisher": [
+        {
+          "id": "structureS502",
+          "uri": "https://www.provincia.tn.it/api/openapi/amministrazione/strutture-organizzative/structureS502#Agenzia-provinciale-per-le-risorse-idriche-e-l-energia-aprie",
+          "priority": 1
+        }
+      ],
+      "rights_holder": "Provincia autonoma di Trento",
+      "creator": [],
+      "has_spatial_coverage": "Provincia autonoma di Trento",
+      "contact_point": [
+        {
+          "id": "contactpointS502",
+          "uri": "https://www.provincia.tn.it/api/openapi/media/classificazioni/punti-di-contatto/contactpointS502#Contatti-di-Agenzia-provinciale-per-le-risorse-idriche-e-l-energia-aprie",
+          "priority": 1
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic_13",
+          "uri": "https://www.provincia.tn.it/api/openapi/argomenti/topic_13#Energia",
+          "priority": 1
+        }
+      ],
+      "theme": [
+        "Energia"
+      ],
+      "related_document": [],
+      "keyword": [],
+      "related_dataset": [],
+      "transparency_section": [],
+      "catalogo_od": true,
+      "show_fullwidth": true,
+      "csv_resource": {
+        "apiEnabled": false,
+        "extraUsers": null,
+        "itemName": "item",
+        "views": [
+          "table"
+        ],
+        "fields": [
+          {
+            "identifier": "id",
+            "label": "ID",
+            "type": "string",
+            "required": "false",
+            "js_label": "ID"
+          },
+          {
+            "identifier": "normativa",
+            "label": "Normativa",
+            "type": "textarea",
+            "required": "false",
+            "js_label": "Normativa"
+          }
+        ],
+        "facetsSettings": [
+          "titolo"
+        ],
+        "isEnabledSearchInput": false,
+        "calendarSettings": [],
+        "tableSettings": {
+          "show_fields": [
+            "normativa"
+          ],
+          "view": "default"
+        },
+        "chartSettings": null,
+        "counterSettings": {
+          "count_field": "false",
+          "select_stat": "count"
+        },
+        "openingView": null
+      },
+      "download_file": [],
+      "download_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRE3PYTLDPNexqxrHJuYvE7AIKW0FIGat0WD1Ny1DfAOGeRLp6JFozpx75vO082oF5pjW-Pwis3amJ3/pub?output=csv",
+      "format": [
+        "CSV"
+      ],
+      "resources": [],
+      "license": [
+        "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+      ],
+      "temporal": [],
+      "resource_name": "TypedDataset"
     }
   ],
   "self": "https://www.provincia.tn.it/api/openapi/dati-e-statistiche/dataset?offset=0&limit=10",
   "prev": null,
   "next": null,
-  "count": 2
+  "count": 4
 }
